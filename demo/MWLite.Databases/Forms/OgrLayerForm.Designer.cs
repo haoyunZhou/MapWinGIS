@@ -41,9 +41,9 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(497, 327);
+            this.btnCancel.Location = new System.Drawing.Point(497, 302);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(75, 21);
             this.btnCancel.TabIndex = 12;
             this.btnCancel.Text = "Close";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -58,9 +58,10 @@
             this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(12, 12);
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(12, 11);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(560, 306);
+            this.listView1.Size = new System.Drawing.Size(560, 283);
             this.listView1.TabIndex = 13;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -87,9 +88,9 @@
             // 
             // btnChangeConnection
             // 
-            this.btnChangeConnection.Location = new System.Drawing.Point(12, 327);
+            this.btnChangeConnection.Location = new System.Drawing.Point(12, 302);
             this.btnChangeConnection.Name = "btnChangeConnection";
-            this.btnChangeConnection.Size = new System.Drawing.Size(130, 23);
+            this.btnChangeConnection.Size = new System.Drawing.Size(130, 21);
             this.btnChangeConnection.TabIndex = 14;
             this.btnChangeConnection.Text = "Change Connection";
             this.btnChangeConnection.UseVisualStyleBackColor = true;
@@ -97,9 +98,9 @@
             // 
             // btnAddLayer
             // 
-            this.btnAddLayer.Location = new System.Drawing.Point(148, 327);
+            this.btnAddLayer.Location = new System.Drawing.Point(148, 302);
             this.btnAddLayer.Name = "btnAddLayer";
-            this.btnAddLayer.Size = new System.Drawing.Size(92, 23);
+            this.btnAddLayer.Size = new System.Drawing.Size(92, 21);
             this.btnAddLayer.TabIndex = 15;
             this.btnAddLayer.Text = "Add Layer";
             this.btnAddLayer.UseVisualStyleBackColor = true;
@@ -107,9 +108,9 @@
             // 
             // OgrLayerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(581, 359);
+            this.ClientSize = new System.Drawing.Size(581, 331);
             this.Controls.Add(this.btnAddLayer);
             this.Controls.Add(this.btnChangeConnection);
             this.Controls.Add(this.listView1);
