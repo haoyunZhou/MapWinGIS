@@ -1,5 +1,6 @@
 #pragma once
 #include "gdal_frmts.h"
+#include "gdal_priv.h"
 
 int CPL_STDCALL GDALProgressFunction( double dfComplete, const char* pszMessage, void *pData);
 

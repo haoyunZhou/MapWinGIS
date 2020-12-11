@@ -27,13 +27,13 @@ CStringW AngleHelper::FormatAngle(double angle, tkAngleFormat angleType, int pre
 
 	if (angleType == tkAngleFormat::afDegrees)
 	{
-		s.Format(format + L"°", angle);		//L"%.1f°"
+		s.Format(format + L"¡ã", angle);		//L"%.1f¡ã"
 		return s;
 	}
 
 	// minutes
 	format = "%02d";	// ignore fractional part for minutes and seconds
-	CStringW degreeFormat = reducedBearing ? "%02d° " : "%d° ";
+	CStringW degreeFormat = reducedBearing ? "%02d?" : "%d?";
 
 	int degrees = (int)floor(angle);
 	double fMinutes = (angle - degrees) * 60.0;

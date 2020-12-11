@@ -77,15 +77,6 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AxInterop.MapWinGIS">
-      <HintPath>..\MWLite.GUI\obj\x86\Debug\AxInterop.MapWinGIS.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Interop.MapWinGIS">
-      <HintPath>..\MWLite.GUI\obj\x86\Debug\Interop.MapWinGIS.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -101,6 +92,15 @@
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
+    <COMReference Include="MapWinGIS">
+      <Guid>{C368D713-CC5F-40ED-9F53-F84FE197B96A}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
     <COMReference Include="stdole">
       <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
       <VersionMajor>2</VersionMajor>
