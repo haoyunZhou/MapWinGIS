@@ -192,3 +192,5 @@ docs/Assets/Syncfusion Logos/
 tmp/
 docs/OptimizedImages/
 src/.scannerwork/
+*.cmake
+unittests/.scannerwork/
